@@ -1,16 +1,10 @@
-from sqlite3 import adapt
-import openpyxl as xl
-from openpyxl import Workbook, load_workbook
-import pyexcel as p
 from datetime import datetime
 import pandas as pd
 import os
 import pickle
 import datetime
-from collections import namedtuple
-from google_auth_oauthlib.flow import Flow, InstalledAppFlow
+from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
-from googleapiclient.http import MediaFileUpload, MediaIoBaseDownload
 from google.auth.transport.requests import Request
 import random
 import string
@@ -83,23 +77,12 @@ calendar_list = service.calendarList().list(pageToken=None).execute()
 #         service.calendars().delete(calendarId=id).execute()
 
 
-# create new calendar
-# calendar_body = {
-#     'summary': 'Trial&Error',                    #Change Trial&Error to different name to create a new calendar
-#     'timeZone': 'Asia/Hong_Kong',
-# }
-# service.calendars().insert(body=calendar_body).execute()
-
-
 # list calendars
 calendar_list = service.calendarList().list(pageToken=None).execute()
 
-
-# get calendar id
-for calendar_list_entry in calendar_list['items']:
-    # Change Trial&Error to different name to input events into a different calendar
-    if 'Trial&Error' in calendar_list_entry['summary']:
-        id = calendar_list_entry['id']
+# calendarId of the calendar
+# Replace with the specific calendarId
+id = "c_lkc28fd1ekh75e7e9312p8quc4@group.calendar.google.com"
 
 
 # format attendees' emails
