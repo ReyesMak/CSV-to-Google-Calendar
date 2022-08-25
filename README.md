@@ -22,7 +22,7 @@ The format in the csv file must follow the following rule:
 3. All Day Event: Boolean value e.g. *TRUE*/*FALSE*
 4. Description: Optional
 5. Location: Optional
-6. Guests: emailA,emailB,emailC e.g. *kelvin.chan@preface.education,reyes.mak@preface.education* ✅ *kelvin.chan@preface.education, reyes.mak@preface.education* (extra space) ❌ *[kelvin.chan@preface.education, reyes.mak@preface.education]* (list format) ❌
+6. Guests: emailA,emailB,emailC e.g. *abc@gmail.com,def@gmail.com* ✅ *abc@gmail.com, def@gmail.com* (extra space) ❌ *[abc@gmail.com, def@gmail.com]* (list format) ❌
 
 ___________________________________________________________________________________________________________________________________________________________
 
