@@ -13,6 +13,8 @@ Here is the link of installing **Visual Studio Code** : https://code.visualstudi
 
 ___________________________________________________________________________________________________________________________________________________________
 
+# Formatting of CSV file
+
 For the csv file, the file name ***MUST*** be ```csv_file.csv``` and it has to be put in the same folder consisting of both the 
 ```client_secret.json``` and ```csv_to_GoogleCalendar.py```.
 
@@ -26,12 +28,16 @@ The format in the csv file must follow the following rule:
 
 ___________________________________________________________________________________________________________________________________________________________
 
+# Preparation of the ```client_secret.json```
+
 The Google Account used in this code is defaultly set as admin@preface.education. To change the Google account, the ```client_secret.json``` needs to be updated.
 
 Getting your client_secret.json file, you can do that by signing into the Google Cloud Platform:
 https://console.cloud.google.com/
 
 ___________________________________________________________________________________________________________________________________________________________
+
+# Retrieve calendarId
 
 To import the data of csv file into a specofic calendar, first you need the **calendarId** which can be accessed by Google Calendar.
 
