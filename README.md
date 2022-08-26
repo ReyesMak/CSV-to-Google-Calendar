@@ -26,6 +26,6 @@ The format in the csv file must follow the following rule:
 
 ___________________________________________________________________________________________________________________________________________________________
 
-
+The Google Account used in this code is defaultly set as admin@preface.education. To change the Google account, the ```client_secret.json``` needs to be updated.
 
 
