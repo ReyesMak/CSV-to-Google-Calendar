@@ -82,7 +82,8 @@ calendar_list = service.calendarList().list(pageToken=None).execute()
 
 # calendarId of the calendar
 # Replace with the specific calendarId
-id = "c_lkc28fd1ekh75e7e9312p8quc4@group.calendar.google.com"
+# Current id is for [CWB] Summer 22 Boot Camp
+id = "preface.education_9me0qsqf7qepo2gq6tama7ujls@group.calendar.google.com"
 
 
 # format attendees' emails
@@ -313,6 +314,7 @@ is_private = []
 for i in range(len(wb)):
     is_private.append(wb.iloc[i]["Private"])
 
+# FORMATTING email address
 # copy guest email address
 guest = []
 for i in range(len(wb)):
