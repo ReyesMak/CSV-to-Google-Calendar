@@ -77,12 +77,8 @@ calendar_list = service.calendarList().list(pageToken=None).execute()
 #         service.calendars().delete(calendarId=id).execute()
 
 
-# list calendars
-calendar_list = service.calendarList().list(pageToken=None).execute()
-
 # calendarId of the calendar
 # Replace with the specific calendarId
-# Current id is for [CWB] Summer 22 Boot Camp
 id = "xxx@group.calendar.google.com"
 
 
