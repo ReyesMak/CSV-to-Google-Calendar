@@ -83,7 +83,7 @@ calendar_list = service.calendarList().list(pageToken=None).execute()
 # calendarId of the calendar
 # Replace with the specific calendarId
 # Current id is for [CWB] Summer 22 Boot Camp
-id = "preface.education_9me0qsqf7qepo2gq6tama7ujls@group.calendar.google.com"
+id = "xxx@group.calendar.google.com"
 
 
 # format attendees' emails
