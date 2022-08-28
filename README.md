@@ -36,7 +36,7 @@ ________________________________________________________________________________
 
 # Retrieve calendarId
 
-To import the data of csv file into a specofic calendar, first you need the **calendarId** which can be accessed by Google Calendar.
+To import the data of csv file into a specific calendar, first you need the **calendarId** which can be accessed in Google Calendar.
 
 For example, in order to import the schedule into the calendar, you can retrieve the calendarId by doing so
 
