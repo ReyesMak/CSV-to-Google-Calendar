@@ -29,9 +29,7 @@ ________________________________________________________________________________
 
 # Preparation of the ```client_secret.json```
 
-The Google Account used in this code is defaultly set as the admin account. To change the Google account, the ```client_secret.json``` needs to be updated.
-
-Getting your client_secret.json file, you can do that by signing into the Google Cloud Platform:
+Getting your```client_secret.json```, you can do that by signing into the Google Cloud Platform:
 https://console.cloud.google.com/
 
 ___________________________________________________________________________________________________________________________________________________________
