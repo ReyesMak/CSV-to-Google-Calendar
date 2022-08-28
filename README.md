@@ -1,6 +1,6 @@
 # CSV-to-Google-Calendar
 
-Before executing the code, users need to ensure that they have installed the required libraries in the conda env (optional):
+Before executing the code, users need to ensure that they have installed the required libraries in the conda environement:
 1. pandas 
 2. Google client 
 
