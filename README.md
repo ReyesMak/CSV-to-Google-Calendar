@@ -29,7 +29,7 @@ ________________________________________________________________________________
 
 # Preparation of the ```client_secret.json```
 
-Getting your```client_secret.json```, you can do that by signing into the Google Cloud Platform:
+Getting your ```client_secret.json```, you can do that by signing into the Google Cloud Platform:
 https://console.cloud.google.com/
 
 ___________________________________________________________________________________________________________________________________________________________
